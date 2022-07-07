@@ -4,6 +4,11 @@
     print Farenheit-Celsius table
     for fahr = 0, 20, ..., 300
 */
+
+#define LOWER 0
+#define UPPER 300
+#define STEP 20
+
 main()
 {
     int fahr;
