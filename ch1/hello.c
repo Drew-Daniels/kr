@@ -23,5 +23,13 @@ main()
 
     printf("Celsius => Farenheit Table\n");
     /* Add logic here */
-
+    int cLower, cUpper, cStep;
+    cLower = 0;
+    cUpper = 300;
+    celsius = cLower;
+    while (celsius <= cUpper) {
+        fahr = ((9.0 / 5.0) * celsius) + 32.0;
+        printf("%3.1f\t%6.0f\n", celsius, fahr);
+        celsius = celsius + 20;
+    }
 }
