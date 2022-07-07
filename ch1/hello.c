@@ -14,10 +14,14 @@ main()
     step = 20;
 
     fahr = lower;
-    printf("TEMPERATURE TABLE\n");
+    printf("Farenheit => Celsius Table\n");
     while (fahr <= upper) {
         celsius = (5.0 / 9.0) * (fahr - 32.0);
         printf("%3.0f\t%6.1f\n", fahr, celsius);
         fahr = fahr + step;
     }
+
+    printf("Celsius => Farenheit Table\n");
+    /* Add logic here */
+
 }
